@@ -8,6 +8,9 @@ z = x + y
 puts z
 x = 60
 puts z
+# The first z output is straightforward, as it outputs the sum of the x and y values when added.
+# However, the second z output remains 43 since only x's value was updated.
+# If one wants z to output the new sum of the updated x value plus the y value, then z = x + y must be redeclared for that to work.
 
 # QUESTION 2
 # Write comments for the remaining lines to describe in your own words 
