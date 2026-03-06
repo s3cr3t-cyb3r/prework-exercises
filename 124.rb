@@ -19,7 +19,7 @@ end
 # One mistake will cause the code to crash. 
 # The other mistake doesn't cause the code to crash, but it is unnecessary code. 
 # Fix both mistakes.
-x = rand(1..100)
+x = 35
 if x < 5
   puts 0
 elsif x < 50
