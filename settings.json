@@ -1,0 +1,12 @@
+{
+    "editor.tabSize": 2,
+    "files.autoSave": "onFocusChange",
+    "editor.parameterHints.enabled": false,
+    "explorer.openEditors.visible": 0,
+    "workbench.editor.closeEmptyGroups": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.accessibilitySupport": "off",
+    "editor.wordWrap": "on",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "window.zoomLevel": 2
+}
