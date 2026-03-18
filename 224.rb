@@ -8,7 +8,7 @@ x = 3             # 3
 y = 4             # 4
 z = 5             # 5
 
-if 2 > 3          
+if 2 > 3          # 6
   x = 10          
   if 2 == 2       
     y = 20        
@@ -17,39 +17,39 @@ if 2 > 3
     end           
   end             
   w = 9           
-elsif 2 == 2      # 6 
-  x = 70          # 7
-  if 2 > 1        # 8
-    y = 80        # 9
+elsif 2 == 2      # 7
+  x = 70          # 8
+  if 2 > 1        # 9
+    y = 80        # 10
   else            
     z = 90        
   end             
-  if x < 100      # 10
-    w = 8         # 11
-    if z == 30    
+  if x < 100      # 11
+    w = 8         # 12
+    if z == 30    # 13
       y = 100     
-    else          
-      y = 14      # 12
-      if w > 10   
+    else          # 14
+      y = 14      # 15
+      if w > 10   # 16
         v = 1000  
       end         
     end           
-  else            
-    w = 19        # 13
-    if z == 200   
+  else            # 17
+    w = 19        # 18
+    if z == 200   # 19
       y = 87      
-    else          
-      y = 33      # 14
-      if w > 4    # 15
-        v = 10000 # 16
+    else          # 20
+      y = 33      # 21
+      if w > 4    # 22
+        v = 10000 # 23
       end         
     end           
   end             
-else              
-  w = 100         
-  x = x + x       
-  y = 10          
-  if z < w        
+else              # 24
+  w = 100         # 25
+  x = x + x       # 26
+  y = 10          # 27
+  if z < w        # 28
     if x < y      
       if z < v    
         z = y     
@@ -58,11 +58,11 @@ else
   end             
 end               
 
-p v               # 17 
-p w               # 18
-p x               # 19
-p y               # 20
-p z               # 21
+p v               # 29
+p w               # 30
+p x               # 31
+p y               # 32
+p z               # 33
 
 # QUESTION 2
 # Fix the indentation of the code below.
