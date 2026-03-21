@@ -41,23 +41,16 @@ puts "This person's name is #{person.full_name} and likes #{person.info}."
 # then fix the code by modifying the class and the puts statement.
 # (This one is quite tricky!)
 
-# class Product
-#   def initialize(name, price, description)
-#     @name = name
-#     @price= price
-#     @description = description
-#   end
-# end
-
-# product = Product.new("Table", 500, "Solid oak table")
-# puts "The product's name is #{product.@name}."
-
+# Array bracket used for the class 'Product'
 class Product
-  def initialize(options)
-    @options = options
+  attr_reader :name, :price, :description
+  def initialize(name, price, description)
+    @name = name
+    @price = price
+    @description = description
   end
 end
 
-product = Product.new({ "name" => "Table", "price" => 500, "description" => "Solid oak table" })
-puts "The product's name is #{product["name"]}."
+product = Product.new("Table", 500, "Solid oak table")
+puts "The product's name is #{product.name}."
 
