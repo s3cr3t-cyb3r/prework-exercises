@@ -34,22 +34,22 @@ elsif 2 == 2      # 7
         v = 1000  
       end         
     end           
-  else            # 17
-    w = 19        # 18
-    if z == 200   # 19
+  else            
+    w = 19        
+    if z == 200   
       y = 87      
-    else          # 20
-      y = 33      # 21
-      if w > 4    # 22
-        v = 10000 # 23
+    else          
+      y = 33      
+      if w > 4    
+        v = 10000 
       end         
     end           
   end             
-else              # 24
-  w = 100         # 25
-  x = x + x       # 26
-  y = 10          # 27
-  if z < w        # 28
+else              
+  w = 100         
+  x = x + x       
+  y = 10          
+  if z < w        
     if x < y      
       if z < v    
         z = y     
@@ -58,11 +58,11 @@ else              # 24
   end             
 end               
 
-p v               # 29
-p w               # 30
-p x               # 31
-p y               # 32
-p z               # 33
+p v               # 17
+p w               # 18
+p x               # 19
+p y               # 20
+p z               # 21
 
 # QUESTION 2
 # Fix the indentation of the code below.
