@@ -4,8 +4,7 @@
 # You can represent this secret code with the hash below.
 # Start with this hash to write a program that asks the user 
 # to enter a single word and convert it into secret code.
-def converter
-    converter = {
+converter = {
     "A" => "Z",
     "B" => "Y",
     "C" => "X",
@@ -32,9 +31,16 @@ def converter
     "X" => "C",
     "Y" => "B",
     "Z" => "A"
-    }
-end
+}
 puts "enter a word:"
-word = gets.chomp.upcase
+word = gets.chomp.upcase # Converts inputted word into uppercase, if not done already
 
-
+cipher = "" # Empty string
+word.each_char do |char| # Cycle through each letter of word
+    if converter.key?(char) # If letter exists in hash
+        cipher += converter[char] # Encrypt letter
+    else
+        cipher += char # Leave character alone
+    end
+end
+puts cipher
