@@ -5,7 +5,7 @@ index = 0
 numbers.length.times do
     if numbers[index] > 10
         puts numbers[index]
-        index += 1
     end
+    index += 1
 end
 
