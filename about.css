@@ -1,0 +1,20 @@
+header, main, footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    background-color: azure;
+    text-align: center;
+}
+.overview {
+    background-color: cyan;
+}
+.main_info {
+    background-color: darkcyan;
+}
+.conclusion {
+    background-color: aqua;
+}
+footer {
+    background-color: darkblue;
+    color: white;
+}
